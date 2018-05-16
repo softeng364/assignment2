@@ -148,7 +148,7 @@ b'bdf'
 
 - If you like, Python does have a built-in sum function (cf. [this Piazza post](https://piazza.com/class/jf4jq6n8ha05zg?cid=14)).
 
-#### Task 2.3. Cyclic Redundancy Checks
+### Task 2.3. Cyclic Redundancy Checks
 
 Implement a function to perform CRC checks with a given generator on an arbitrary sequence of bytes.
 
@@ -235,7 +235,6 @@ A demonstration of the required line interface is shown in the examples below.
 %run ping --help
 %run ping --count 5 www.google.com
 ```
-
 
 ##### Example: Command line interface
 

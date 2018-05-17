@@ -215,7 +215,7 @@ A demonstration of the required line interface is shown in the examples below.
 | `code` | `unsigned char` | 1 |
 | `checksum` | `unsigned short` | 2 |
 | `identifier` | `unsigned short` | 2 |
-| `sequence_number` | `unsigned char` | 1 |
+| `sequence_number` | ~~`unsigned char`~~ `unsigned short` | ~~1~~ 2 |
 
 - The type of our payload will be  `float`:
 

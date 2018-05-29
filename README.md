@@ -27,7 +27,7 @@ Modify `dijkstra_5_14()` so as to return  predecessors (in addition to distances
 
 Using your new function, **visualize** the least-cost path tree for node `u` on the network from Slide `5-15`, as we did in Lab 1.
 
-- The new interface should matches that of NetworkX's `dijkstra_predecessor_and_distance()` i.e. having the same order- and types of output arguments.
+- The new interface should match that of NetworkX's `dijkstra_predecessor_and_distance()` i.e. having the same order- and types of output arguments.
 
 - We need to initialize the predecessor map appropriately and update it each time the distance map is update. Only a few lines of code are required.
 
